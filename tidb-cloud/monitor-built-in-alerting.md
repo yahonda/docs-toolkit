@@ -62,18 +62,18 @@ The following table provides the TiDB Cloud built-in alert conditions and the co
 
 | Condition | Recommended Action |
 |:--- |:--- |
-| Total TiDB node memory utilization across cluster exceeded 70% for 10 minutes | Consider increasing the node number or node size for TiDB to reduce the memory usage percentage of the current workload.|
-| Total TiKV node memory utilization across cluster exceeded 70% for 10 minutes | Consider increasing the node number or node size for TiKV to reduce the memory usage percentage of the current workload. |
-| Total TiFlash node memory utilization across cluster exceeded 70% for 10 minutes | Consider increasing the node number or node size for TiFlash to reduce the memory usage percentage of the current workload. |
-| Total TiDB node CPU utilization exceeded 80% for 10 minutes | Consider increasing the node number or node size for TiDB to reduce the CPU usage percentage of the current workload.|
-| Total TiKV node CPU utilization exceeded 80% for 10 minutes | Consider increasing the node number or node size for TiKV to reduce the CPU usage percentage of the current workload. |
-| Total TiFlash node CPU utilization exceeded 80% for 10 minutes | Consider increasing the node number or node size for TiFlash to reduce the CPU usage percentage of the current workload. |
-| TiKV storage utilization exceeds 80% | Consider increasing the node number or node storage size for TiKV to increase your storage capacity. |
-| TiFlash storage utilization exceeds 80% | Consider increasing the node number or node storage size for TiFlash to increase your storage capacity. |
-| Max memory utilization across TiDB nodes exceeded 70% for 10 minutes | Consider checking if there is any [hotspot](/tidb-cloud/tidb-cloud-sql-tuning-overview.md#hotspot-issues) in the cluster or increasing the node number or node size for TiDB to reduce the memory usage percentage of the current workload. |
-| Max memory utilization across TiKV nodes exceeded 70% for 10 minutes | Consider checking if there is any [hotspot](/tidb-cloud/tidb-cloud-sql-tuning-overview.md#hotspot-issues) in the cluster or increasing the node number or node size for TiKV to reduce the memory usage percentage of the current workload. |
-| Max CPU utilization across TiDB nodes exceeded 80% for 10 minutes | Consider checking if there is any [hotspot](/tidb-cloud/tidb-cloud-sql-tuning-overview.md#hotspot-issues) in the cluster or increasing the node number or node size for TiDB to reduce the CPU usage percentage of the current workload. |
-| Max CPU utilization across TiKV nodes exceeded 80% for 10 minutes | Consider checking if there is any [hotspot](/tidb-cloud/tidb-cloud-sql-tuning-overview.md#hotspot-issues) in the cluster or increasing the node number or node size for TiKV to reduce the CPU usage percentage of the current workload. |
+| Total TiDB node memory utilization across cluster exceeded 70% for 10 minutes | Consider increasing the number of nodes or node size for TiDB to reduce the memory usage percentage of the current workload.|
+| Total TiKV node memory utilization across cluster exceeded 70% for 10 minutes | Consider increasing the number of nodes or node size for TiKV to reduce the memory usage percentage of the current workload. |
+| Total TiFlash node memory utilization across cluster exceeded 70% for 10 minutes | Consider increasing the number of nodes or node size for TiFlash to reduce the memory usage percentage of the current workload. |
+| Total TiDB node CPU utilization exceeded 80% for 10 minutes | Consider increasing the number of nodes or node size for TiDB to reduce the CPU usage percentage of the current workload.|
+| Total TiKV node CPU utilization exceeded 80% for 10 minutes | Consider increasing the number of nodes or node size for TiKV to reduce the CPU usage percentage of the current workload. |
+| Total TiFlash node CPU utilization exceeded 80% for 10 minutes | Consider increasing the number of nodes or node size for TiFlash to reduce the CPU usage percentage of the current workload. |
+| TiKV storage utilization exceeds 80% | Consider increasing the number of nodes or node storage size for TiKV to increase your storage capacity. |
+| TiFlash storage utilization exceeds 80% | Consider increasing the number of nodes or node storage size for TiFlash to increase your storage capacity. |
+| Max memory utilization across TiDB nodes exceeded 70% for 10 minutes | Consider checking if there is any [hotspot](/tidb-cloud/tidb-cloud-sql-tuning-overview.md#hotspot-issues) in the cluster or increasing the number of nodes or node size for TiDB to reduce the memory usage percentage of the current workload. |
+| Max memory utilization across TiKV nodes exceeded 70% for 10 minutes | Consider checking if there is any [hotspot](/tidb-cloud/tidb-cloud-sql-tuning-overview.md#hotspot-issues) in the cluster or increasing the number of nodes or node size for TiKV to reduce the memory usage percentage of the current workload. |
+| Max CPU utilization across TiDB nodes exceeded 80% for 10 minutes | Consider checking if there is any [hotspot](/tidb-cloud/tidb-cloud-sql-tuning-overview.md#hotspot-issues) in the cluster or increasing the number of nodes or node size for TiDB to reduce the CPU usage percentage of the current workload. |
+| Max CPU utilization across TiKV nodes exceeded 80% for 10 minutes | Consider checking if there is any [hotspot](/tidb-cloud/tidb-cloud-sql-tuning-overview.md#hotspot-issues) in the cluster or increasing the number of nodes or node size for TiKV to reduce the CPU usage percentage of the current workload. |
 
 ### Data migration alerts
 

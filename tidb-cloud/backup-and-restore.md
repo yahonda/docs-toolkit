@@ -242,7 +242,7 @@ To restore your TiDB Cloud Dedicated cluster data from a backup to a new cluster
 
     - Set the cluster name.
     - Update the port number of the cluster.
-    - Increase node number, vCPU and RAM, and storage for the cluster.
+    - Increase the number of nodes, vCPU and RAM, and storage for the cluster.
 
 7. Click **Restore**.
 
@@ -265,7 +265,7 @@ To restore a deleted cluster from recycle bin, take the following steps:
 5. On the **Restore** page, specify a name for the new cluster, and then make the following changes if necessary:
 
     - Update the port number of the cluster.
-    - Increase the node number, vCPU and RAM, and storage for the cluster.
+    - Increase the number of nodes, vCPU and RAM, and storage for the cluster.
 
 6. In the **Summary** section, check the restore information, and then click **Restore**.
 
